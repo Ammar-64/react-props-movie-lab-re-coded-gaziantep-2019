@@ -12,12 +12,11 @@ export default class CardBack extends Component {
 
   generateRatingElement = () => {
     // implement meeeee! See the readme for instructions
-    return(
      if (this.props.IMDBRating !== null ){
        return (<h4>{imgMapper[this.props.IMDBRating]}</h4>)
      }
     return (<h4>No Rating Found</h4>)
-  )
+  
   }
 
   render() {
