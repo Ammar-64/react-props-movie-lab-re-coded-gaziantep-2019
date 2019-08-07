@@ -38,7 +38,7 @@ export default class MovieCard extends Component {
           genres: ['No Genre(s) Found'],
           poster: 'default',
         }
-        
+
         <CardFront />
         <CardBack />
       </div>
