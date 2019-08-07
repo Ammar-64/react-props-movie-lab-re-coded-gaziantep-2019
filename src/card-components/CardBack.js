@@ -16,7 +16,7 @@ export default class CardBack extends Component {
        return (<h4>{imgMapper[this.props.IMDBRating]}</h4>)
      }
     return (<h4>No Rating Found</h4>)
-  
+
   }
 
   render() {
